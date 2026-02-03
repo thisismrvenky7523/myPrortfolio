@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #0E2D38;
+}
+/* nav section start */
+#header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px; 
+    border-bottom: 0.8px solid #4D656C;
+    background-color: #001E2B;
+    color: white;
+}
+nav{
+    width: 60%;
+
+}
+nav>ul{
+    width: 100%;
+    height: 100%;
+    border: 19px red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>ul>a{
+    text-decoration: none;
+    padding: 5px 8px;
+    border-radius: 6px;
+    color: white;
+}
+nav>ul>a:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: all linear 0.3s;
+}
+nav>ul>a>li{
+    list-style: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+/* Nav secton end */
+
+
+/* Home section start */
+#home{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #0E2D38;
+}
+.innerhome{
+width: 70%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+background-color: #1E3741;
+border: 1px solid #4D656C;
+}
+.homediv{
+    width: 95%;
+    height: 92%;
+    background-color: #021E29;
+    display: flex;
+    border-radius: 15px;
+    border: 0.8px solid #4D656C;
+}
+.mydetails{
+    width: 65%;
+    padding: 10px 100px 10px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.mydetails>h2{
+    font-size: xx-large;
+    color: rgb(197, 253, 234);
+}
+.mydetails>p{
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.mypic{
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 120px 0px 0px 0px;
+}
+.mypic>.myimg{
+    width: 100%;
+    height: 130%;
+    border-radius: 0px 15px 15px 0px;
+}
+.social-media{
+    margin-top: 10px;
+}
+i{
+    width: 35px;
+    height:35px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+i:hover{
+    box-shadow: 0px 0px 8px 2px black;
+}
+#facebook,#linkedin{
+    background-color: rgb(131, 131, 254);
+    color: white;
+}
+#xx,#github{
+  background-color: black;
+  color: white;
+}
+#youtube{
+    background-color: red;
+    color: white;
+}
